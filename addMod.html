@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>需添加模组列表</title>
+    <link rel="stylesheet" href="./tableStyle.css">
+</head>
+<body>
+    <div class="header">
+        <h1>需添加模组列表</h1>
+        <div class="controls">
+            <button class="toggle-btn" id="toggleSubs">
+                隐藏附属模组
+            </button>
+            <button onclick="location.href=('index.html')" class="toggle-btn">返回主页</button>
+        </div>
+    </div>
+    
+    <div class="table-container">
+        <table id="modTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>模组名原名</th>
+                    <th>模组中文名or作用</th>
+                    <th>详细链接</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="id-cell">1</td>
+                    <td>Alex's Caves</td>
+                    <td>爱丽克斯的洞穴</td>
+                    <td><a href="https://www.mcmod.cn/class/12592.html" target="_blank" class="wiki-link">Go Wiki</a></td>
+                </tr>
+                <tr>
+                    <td class="id-cell">2</td>
+                    <td>T.O Magic 'n Extras - Iron's Spells Addon</td>
+                    <td>铁魔法和灾变的附属</td>
+                    <td><a href="https://www.mcmod.cn/class/15945.html" target="_blank" class="wiki-link">Go Wiki</a></td>
+                </tr>
+                <tr class="sub-mod">
+                    <td class="id-cell">2A</td>
+                    <td>Apothic Attributes</td>
+                    <td>T.O-ME的前置模组</td>
+                    <td><a href="https://www.mcmod.cn/class/12036.html" target="_blank" class="wiki-link">Go Wiki</a></td>
+                </tr>
+                <tr class="sub-mod">
+                    <td class="id-cell">2B</td>
+                    <td>Placebo</td>
+                    <td>Apothic Attributes的前置模组</td>
+                    <td><a href="https://www.mcmod.cn/class/1023.html" target="_blank" class="wiki-link">Go Wiki</a></td>
+                </tr>
+                <tr>
+                    <td class="id-cell">3</td>
+                    <td>Wither: Reincarnated</td>
+                    <td>更强大的凋零</td>
+                    <td><a href="https://modrinth.com/mod/wither-reincarnated" target="_blank" class="wiki-link">Go Wiki</a></td>
+                </tr>
+                <tr>
+                    <td class="id-cell">4</td>
+                    <td>Minecolonies</td>
+                    <td>模拟殖民地</td>
+                    <td><a href="https://www.mcmod.cn/class/682.html" target="_blank" class="wiki-link">Go Wiki</a></td>
+                </tr>
+                <tr class="sub-mod">
+                    <td class="id-cell">4A</td>
+                    <td>Structurize</td>
+                    <td>模拟殖民地前置</td>
+                    <td><a href="https://www.mcmod.cn/class/1865.html" target="_blank" class="wiki-link">Go Wiki</a></td>
+                </tr>
+                <tr class="sub-mod">
+                    <td class="id-cell">4B</td>
+                    <td>BlockUI</td>
+                    <td>模拟殖民地前置</td>
+                    <td><a href="https://www.mcmod.cn/class/5246.html" target="_blank" class="wiki-link">Go Wiki</a></td>
+                </tr>
+                <tr class="sub-mod">
+                    <td class="id-cell">4C</td>
+                    <td>Multi-Piston</td>
+                    <td>模拟殖民地前置</td>
+                    <td><a href="https://www.mcmod.cn/class/5500.html" target="_blank" class="wiki-link">Go Wiki</a></td>
+                </tr>
+                <tr class="sub-mod">
+                    <td class="id-cell">4D</td>
+                    <td>Domum Ornamentum</td>
+                    <td>模拟殖民地前置</td>
+                    <td><a href="https://www.mcmod.cn/class/5506.html" target="_blank" class="wiki-link">Go Wiki</a></td>
+                </tr>
+                <tr class="sub-mod">
+                    <td class="id-cell">4E</td>
+                    <td>TownTalk</td>
+                    <td>模拟殖民地前置</td>
+                    <td><a href="https://www.mcmod.cn/class/13177.html" target="_blank" class="wiki-link">Go Wiki</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="footer">
+        <p>过往浮现2.0
+    </div>
+
+    <script src="./tablestyle.js"></script>
+</body>
+</html>
